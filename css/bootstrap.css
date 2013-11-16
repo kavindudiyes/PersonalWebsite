@@ -851,6 +851,8 @@ pre code {
 .col-xs-5,
 .col-sm-5,
 .col-md-5,
+.col-kavitext,
+.col-kavipic,
 .col-lg-5,
 .col-xs-6,
 .col-sm-6,
@@ -1285,6 +1287,8 @@ pre code {
   .col-md-3,
   .col-md-4,
   .col-md-5,
+  .col-kavipic,
+  .col-kavitext,
   .col-md-6,
   .col-md-7,
   .col-md-8,
@@ -1293,6 +1297,15 @@ pre code {
   .col-md-11 {
     float: left;
   }
+
+  .col-kavitext {
+    width: 70%;
+  }
+
+  .col-kavipic {
+    width: 30%;
+  }
+
   .col-md-12 {
     width: 100%;
   }

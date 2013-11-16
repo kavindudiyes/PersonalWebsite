@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- <link rel="shortcut icon" href="favicon.ico"> -->
+
+    <title>Kavindu Diyes</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../docs-assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="navbar.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="carousel.css" rel="stylesheet"> -->
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body>
+
+  <div id="fb-root"></div>
+
+  <script>
+    (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=15969858686";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
+    <div class="container">
+
+    <!-- Static navbar -->
+      <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Main Menu</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Work Experience</a></li>
+            <li><a href="#">Group Projects</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Others <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Achievements</a></li>
+                <li><a href="#">Responsibilities</a></li>
+                <li class="divider"></li>
+                <li class="dropdown-header">Technical Skills</li>
+                <li><a href="#">Languages</a></li>        
+                <li><a href="#">Operating Systems</a></li>
+                <li><a href="#">Other software</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!-- <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./">Default</a></li>
+            <li><a href="../navbar-static-top/">Static top</a></li>
+            <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+          </ul> -->
+        </div><!--/.nav-collapse -->
+      </div>
+    <!-- <div class="navbar-wrapper">
+      <div class="container">
+
+        <div class="navbar navbar-inverse navbar-static-top" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Project name</a>
+            </div>
+            <div class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li class="dropdown-header">Nav header</li>
+                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">One more separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div> -->
+
+
+    <!-- Carousel
+    ================================================== -->
+    <!-- <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
+      <!-- Indicators -->
+      <!--<ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example headline.</h1>
+              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>One more for good measure.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div> --> <!-- /.carousel -->
+
+    <!-- Main component for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <table>
+        <tr>
+          <td>
+            <h1>Kavindu Diyes</h1>
+          </td>
+          <td>
+            <img src="propic.jpg" hspace="35" class="img-circle" alt="some_text" width="140" height="140">
+          </td>
+        </tr>       
+      </table>
+        <tr>
+          <td>
+            <p align="justify">Welcome to my website! I am a 4th year undergraduate at Imperial College London following an MEng degree in Software Engineering. Please feel free to navigate through my website if you would like to find out more information about me.</p>
+            <p>
+          </td>
+          <td>
+            <a href="http://uk.linkedin.com/in/kavindudiyes" style="text-decoration:none;"><span style="font: 80% Arial,sans-serif; color:#0783B6;"><img src="http://s.c.lnkd.licdn.com/scds/common/u/img/webpromo/btn_in_20x15.png" width="20" height="15" alt="View Kavindu A. H. Diyes's LinkedIn profile" style="vertical-align:middle" border="0">View Kavindu A. H. Diyes's profile</span></a>
+          </td>
+        </tr>
+      </table>
+      </p>
+    </div>
+
+    </div> <!-- /container -->
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-kavitext">
+          <h2 class="featurette-heading">Goldman Sachs International - <span class="text-muted">Technology Placement</span></h2>
+          <p class="lead" align="justify">Undertook a six-month work placement programme at one of the leading Investment Banks in the world from April to September 2013. Was a member of the Controllers' Technology team which supports the production, management and posting of financial statements through different applications and infrastructure. Worked on many different tasks and projects ranging from small enhancements and bug fixes to a main project which added an important piece of functionality to an existing application. Gained invaluable financial and technical knowledge while experiencing how technology was used in industry.</p>
+        </div>
+        <div class="col-kavipic" align="right">
+          <img class="featurette-image img-responsive" src="GoldmanSachs.jpg" width="300" height="300" alt="Generic placeholder image">
+        </div>
+
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-kavipic">
+          <img class="featurette-image img-responsive" src="ImperialCollegeLondon.jpg" width="300" height="300" alt="Generic placeholder image">
+        </div>
+        <div class="col-kavitext">
+          <h2 class="featurette-heading">Imperial College London - <span class="text-muted">UTA</span></h2>
+          <p class="lead" align="justify">Worked as an Undergraduate Teaching Assistant at Imperial College London during the third year of my degree. Was selected for this role based on good performance in programming during the first two years of study. The task was to become the Personal Programming Tutor of a group of first year Computing students at the university. It required me to mark assignments and conduct weekly small group tutorials to discuss about assignments, programming in general and answer any questions to help them understand better. </p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-kavitext">
+          <h2 class="featurette-heading">Imperial College London - <span class="text-muted">Group Project</span></h2>
+          <p class="lead" align="justify">Experienced the consumer-developer relationship by working for the College of Policing (A professional body of the police service in the UK) during the 3rd year group project at Imperial College London. Worked in a group of five where we were asked to create an intelligent system to monitor and analyse crime using resources such as articles from the internet. We used a machine learning technique which classified resources according to "crime tags" with incremental accuracy and populated a database with the information. Later, we used this information to produce graphs and charts which were presented to the user through a website. More Info...</p>
+        </div>
+        <div class="col-kavipic">
+          <img class="featurette-image img-responsive" src="CrimeAnalysis.jpg" width="300" height="300" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row featurette">
+      <div class="row">
+        <div class="col-lg-4" align="center">
+          <a href="http://uk.linkedin.com/in/kavindudiyes" target="_blank">
+            <img class="img-circle" src="linkedin.png" alt="Generic placeholder image" width="80" height="80">
+            <h2>LinkedIn</h2>
+          </a>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4" align="center">
+          <a href="https://www.facebook.com/kavindu.diyes" target="_blank">
+            <img class="img-circle" src="facebook.gif" alt="Generic placeholder image" width="80" height="80">
+            <h2>Facebook</h2>
+          </a>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4" align="center">
+          <a href="http://twitter.com/kavindudiyes" target="_blank">
+            <img class="img-circle" src="twitter.jpg" alt="Generic placeholder image" width="80" height="80">
+            <h2>Twitter</h2>
+          </a>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+
+  </br>
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2013 Kavindu Diyes &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="docs-assets/js/holder.js"></script>
+  </body>
+</html>
